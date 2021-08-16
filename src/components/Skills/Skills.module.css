@@ -1,0 +1,42 @@
+.container {
+  height: 90vh;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.skillsContainer {
+  height: 450px;
+  width: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+}
+
+.textContainer {
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.textContainer h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.textContainer p {
+  text-align: left;
+  margin: 0rem 5rem;
+  line-height: 1.7rem;
+}

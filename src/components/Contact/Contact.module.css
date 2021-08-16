@@ -1,0 +1,44 @@
+.contactContainer {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.containerLeft {
+  width: 50%;
+}
+
+.containerRight {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 380px;
+  margin: 1rem 2rem;
+  text-align: left;
+  line-height: 1.8;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.containerRight ul {
+  list-style-type: none;
+}
+
+.containerRight li {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.containerRight ul li p {
+  margin-left: 0.5rem;
+}
+
+.img {
+  height: 400px;
+  width: 700px;
+}

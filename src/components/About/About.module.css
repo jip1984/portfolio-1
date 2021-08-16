@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 90vh;
+}
+
+.text {
+  width: 50%;
+  height: 450px;
+  margin: 3rem 5rem;
+  text-align: left;
+  line-height: 1.8;
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.photo {
+  width: 50%;
+  height: 450px;
+}
+
+.text h2 {
+  padding: 10px;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.text p {
+  padding: 0 3rem;
+  margin: 0 1rem;
+}
+.aboutMe .container .photo .me {
+  height: 400px;
+  border-radius: 25%;
+  border: 0.4rem solid #333;
+  box-shadow: 0 0 50px #333;
+  margin: 3rem 5rem;
+}
