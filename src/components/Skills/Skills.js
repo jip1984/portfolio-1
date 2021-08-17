@@ -11,6 +11,7 @@ import redux from './../../img/redux.png'
 import bootstrap from './../../img/bootstrap.png'
 import post from './../../img/postgresql.png'
 import mongo from './../../img/mongodb.png'
+import vue from './../../img/Vue-logo.svg'
 
 const tech = [
   {
@@ -48,9 +49,9 @@ const tech = [
 
   {
     id: 6,
-    img: redux,
-    alt: 'redux',
-    title: 'Redux',
+    img: vue,
+    alt: 'vue.js',
+    title: 'vue',
   },
   {
     id: 7,
