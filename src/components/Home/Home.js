@@ -1,17 +1,11 @@
 import React from 'react'
 import classes from './Home.module.css'
 import code from './../../img/coder.svg'
-import hex from './../../img/hexagon.svg'
 
-
-const cvDownload = () => {
-  const link = 'https://drive.google.com/u/0/uc?id=1TV_iifZjJIowDobjZXegqd7NeJ08rYx9&export=download'
-  return link
-}
 
 const Home = () => {
   return (
-    <div className={classes.home}>
+    <div className={classes.home} id='home'>
       <div className={classes.containerLeft}>
 
         <h1 className={classes.Hello}><span>Jon Prosser</span></h1>

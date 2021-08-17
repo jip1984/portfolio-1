@@ -79,9 +79,9 @@ const Skills = () => {
 
 
   return (
-    <>
+    <div id='skills'>
       <PageHeader title={'My Skills'} />
-      <div className={classes.container}>
+      <div className={classes.container} >
 
 
         <div className={classes.textContainer}>
@@ -99,7 +99,7 @@ const Skills = () => {
           />)}
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

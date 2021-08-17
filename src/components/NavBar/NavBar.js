@@ -1,28 +1,14 @@
 import React from 'react'
 import classes from './NavBar.module.css'
+import MobileNavigation from './MobileNavigation'
+import Navigation from './Navigation'
 
 const NavBar = () => {
   return (
     <div className={classes.NavBar}>
-      <nav>
-        <ul>
-          <li>
-            <a href='/'>Home</a>
-          </li>
-          <li>
-            <a href='/#about'>About Me</a>
-          </li>
-          <li>
-            <a href='/#skills'> My Skills</a>
-          </li>
-          <li>
-            <a href='/#projects'>My Projects</a>
-          </li>
-          <li>
-            <a href='/contact'>Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <MobileNavigation />
+      <Navigation />
+
     </div>
   )
 }

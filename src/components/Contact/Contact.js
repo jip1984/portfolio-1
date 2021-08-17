@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div>
       <PageHeader title={'Contact Me'} />
-      <div className={classes.contactContainer}>
+      <div className={classes.contactContainer} id='contact'>
         <div className={classes.containerLeft}>
           <img src={contact} alt="contact" className={classes.img} />
         </div>

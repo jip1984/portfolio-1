@@ -30,3 +30,45 @@
   border-bottom: #6c63ff 5px solid;
   margin-bottom: 1rem;
 }
+
+.NavBar .mobileNavigation {
+  display: none;
+}
+
+@media (max-width: 990px) {
+  .NavBar .navigation {
+    display: none;
+  }
+
+  .NavBar .mobileNavigation {
+    display: flex;
+    align-items: center;
+  }
+
+  .NavBar .mobileNavigation .hamburger {
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+  }
+
+  .NavBar nav ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20%;
+    width: 100%;
+    background-color: #181818;
+    border-top: 1px solid #6c63ff;
+    padding: 20px;
+  }
+
+  .NavBar {
+    opacity: 1;
+  }
+
+  .NavBar a:hover {
+    border-bottom: none;
+    color: #6c63ff;
+  }
+}

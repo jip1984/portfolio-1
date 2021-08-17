@@ -46,3 +46,58 @@ span {
   color: #6c63ff;
   font-size: 3rem;
 }
+
+@media (max-width: 1200px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Code {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .Code {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .containerRight {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .containerLeft {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .Code {
+    height: 150px;
+    margin-right: 10rem;
+  }
+}
