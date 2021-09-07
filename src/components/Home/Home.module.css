@@ -27,6 +27,7 @@
   font-size: 1.3rem;
   cursor: pointer;
   box-shadow: 8px 8px 8px -4px #333;
+  animation: cvBtnUp 2s ease-out;
 }
 
 .cvBtn:active {
@@ -35,6 +36,7 @@
 
 .Code {
   width: 700px;
+  animation: moveInRight 2s ease-out;
 }
 
 .hex {
@@ -46,6 +48,47 @@ span {
   color: #6c63ff;
   font-size: 3rem;
 }
+
+.Hello {
+  animation: moveInLeft 2s ease-out;
+}
+
+/* Animations */
+
+@keyframes cvBtnUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* media queries */
 
 @media (max-width: 1200px) {
   .home {
